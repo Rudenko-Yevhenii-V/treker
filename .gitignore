@@ -1,66 +1,33 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
 .idea
+*.iws
 *.iml
-target
-unit_1_git/target
-unit_2_compile/target
-unit_2_compile/compileAndRunWindow/maven/target
+*.ipr
 
-.*
-~*
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-node_modules/
-
-
-/vendor
-
-/bower_components
-
-# ignore jekyll build directory
-/_site
-
-# ignore OS generated files
-ehthumbs.db
-Thumbs.db
-
-# ignore Editor files
-*.sublime-project
-*.sublime-workspace
-*.komodoproject
-
-# ignore log files and databases
-*.log
-*.sql
-*.sqlite
-
-# ignore compiled files
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
-
-# ignore packaged files
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-
-# ignore private/secret files
-*.der
-*.key
-*.pem
-
-# --------------------------------------------------------
-# BEGIN Explictly Allowed Files (i.e. do NOT ignore these)
-# --------------------------------------------------------
-
-# track these files, if they exist
-!.gitignore
-!.editorconfig
-!.phpcs.xml.dist
-!.env.example
+### VS Code ###
+.vscode/
